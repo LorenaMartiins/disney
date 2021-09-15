@@ -1,0 +1,1086 @@
+#parque{
+    background-color: #5391AA;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    display: block;
+}
+
+#content{
+    padding: 74px;
+    text-align: justify;
+}
+
+#footer_p {
+    background-color: #5391AA;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+#footer_p span{
+    color: white;
+    font-weight: bold;
+}
+
+.prev1, .next1{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    top: 95%;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.prev2, .next2{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    top: 150%;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.prev3, .next3{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    top: 205%;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.prev4, .next4{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    top: 265%;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.prev5, .next5{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    top: 320%;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.prev6, .next6{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    top: 375%;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.prev7, .next7{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    top: 430%;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.prev8, .next8{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    top: 485%;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.next1, .next3, .next5, .next7{
+    right: 152px;
+    border-radius:  5px 0 0 5px;
+}
+
+.next2, .next4, .next6, .next8{
+    right: 1269px;
+    border-radius:  5px 0 0 5px;
+}
+
+.prev1:hover, .prev2:hover, .prev3:hover, .prev4:hover, .prev_5:hover, .prev6:hover, 
+.prev7:hover, .prev8:hover{
+    background-color: rgba(255, 255, 255, 0.486);
+    color: black;
+}
+
+.next1:hover, .next2:hover, .next3:hover, .next4:hover, .next_5:hover, 
+.next6:hover, .next7:hover, .next8:hover{
+    background-color: rgba(255, 255, 255, 0.486);
+    color: black;
+}
+
+.conteudo .saip{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(104, 119, 253);
+    padding: 14px 14px;
+    text-align: center;
+    float: left;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.conteudo .saip:hover{
+    background-color: rgb(50, 63, 179);
+    color: white;
+    transition: 1.5s;
+    border-radius: 5px;
+    width: 105px;
+}
+
+/*magic kindgom*/
+
+.magic img{
+    width: 50%;
+    line-height: 50%;
+    border-radius: 5px;
+}
+
+.mot{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    margin: 0px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+
+.active, .mot:hover{
+    transition: 0.3s;
+    background-color: #00748b;
+}
+
+.magic{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.mots_box{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.article_m{
+    margin: 10%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+.nome_m{
+    display: block;
+    text-align: center;
+}
+
+.nome_m1{
+    display: block;
+    text-align: center;
+    width: 500px;
+    position: relative;
+    right: -37%;
+}
+
+.cidade{
+    position: relative;
+    text-align: center;
+}
+
+.article_m p{
+    margin: 0px;
+    text-align: 19px;
+    text-align: justify;
+    padding: 8px;
+}
+
+.article_m span{
+    font-size:20px;
+    font-weight: bolder;
+}
+
+.container_m .magic img{
+    width: 80%;
+    position: relative;
+    left: 200px;
+}
+
+.mapa{
+    text-align: center;
+    display: block;
+    background-color: #5391AA;
+    width: 1750px;
+    padding: 10px;
+    position: relative;
+    left: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.img_mapa{
+    width: 50%;
+    display: block;
+    position: relative;
+    left: 26%;
+}
+
+.atracoes{
+    padding: 10px;
+    background-color: #5391AA;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.image_a{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.image_a img{
+    width: 450px;
+    height: 300px;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.image_a p{ 
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.prev_m, .next_m{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    top: 120%;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+    right: 1655px;
+}
+
+.next_m{
+    right: 180px;
+    border-radius:  5px 0 0 5px;
+}
+
+.prev_m:hover{
+    background-color: rgba(255, 255, 255, 0.486);
+    color: black;
+}
+
+.next_m:hover{
+    background-color: rgba(255, 255, 255, 0.486);
+    color: black;
+}
+
+/*historia*/
+#historia{
+   background-color: #a8d1d98f;
+   padding: 20px; 
+   text-align: center;
+   margin: 0;
+}
+
+/*disney studios*/
+.prev_ds1, .next_ds1{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    top: 185%;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.prev_ds2, .next_ds2{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    top: 240%;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.prev_ds3, .next_ds3{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    top: 298%;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.prev_ds4, .next_ds4{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    top: 355%;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.prev_ds5, .next_ds5{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    top: 410%;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.next_ds1, .next_ds3, .next_ds5{
+    right: 152px;
+    border-radius:  5px 0 0 5px;
+}
+
+.next_ds2, .next_ds4{
+    right: 1269px;
+    border-radius:  5px 0 0 5px;
+}
+
+.prev_ds1:hover, .prev_ds2:hover, .prev_ds3:hover, .prev_ds4:hover, .prev_ds5:hover{
+    background-color: rgba(255, 255, 255, 0.486);
+    color: black;
+}
+
+.next_ds1:hover, .next_ds2:hover, .next_ds3:hover, .next_ds4:hover, .next_ds5:hover{
+    background-color: rgba(255, 255, 255, 0.486);
+    color: black;
+}
+
+.n_text1{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 167.6%;
+    transition: none;
+    right: 635px;
+    border-radius: 5px 0px 5px 0px;
+}
+
+.n_text2{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 223.8%;
+    left: 95.5px;
+    border-radius: 5px 0px 0px 0px;
+}
+
+.n_text3{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 280%;
+    right: 635px;
+    border-radius: 5px 0px 0px 0px;
+}
+
+.n_text4{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 336%;
+    left: 95.5px;
+    border-radius: 5px 0px 0px 0px;
+}
+
+.n_text5{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 392%;
+    right: 635px;
+    border-radius: 5px 0px 0px 0px;
+}
+
+#img_ds img{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    padding: 1%;
+}
+
+.article_ds{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 50px;
+    display: block;
+}
+
+.article_ds p{
+    margin: 0px;
+    text-align: 19px;
+    text-align: justify;
+    padding: 8px;
+}
+
+.img_cont img{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*animaçao*/
+.article_a{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article_a p{
+    margin: 0px;
+    text-align: 19px;
+    text-align: justify;
+    padding: 8px;
+}
+
+#personagem{
+    margin-left: 120px;
+    border-bottom: 1px solid black;
+    width: 400px;
+}
+
+.article_a #img_a img{
+    width: 100%;
+    position: relative;
+    left: 450px;
+    padding: 20px;
+}
+
+.nome_a{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 25px;
+    width: 500px;
+    padding: 7px;
+    text-align: center;
+    background-color: #88BAAF;
+}
+
+.animacao{
+    display: flex;
+    flex-wrap:wrap;
+    width: 50%;
+}
+
+.animacao .ani_img{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    left: 90px;
+    animation-name: zoom;
+    animation-duration: 2.0s;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 2.0s;
+}
+
+@keyframes zoom{
+    from{ transform: scale(0);}
+    to{ transform: scale(1);}
+}
+
+@-webkit-keyframes zoom{
+    from{ transform: scale(0);}
+    to{ transform: scale(1);}
+}
+
+.ani_img:hover{
+    background-color: white;
+    transition: 1.0s;
+    border-radius: 5px;
+}
+
+/*tv*/
+#tv{
+    background-color: #AF64A3;
+    padding: 20px; 
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.article_t{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article_t p{
+    margin: 0px;
+    text-align: 19px;
+    text-align: justify;
+    padding: 8px;
+}
+
+.article_t img{
+    width: 95%;
+    position: relative;
+    left: 50px;
+}
+
+.article_t #img_t img{
+    width: 100%;
+    position: relative;
+    left: 450px;
+    padding: 20px;
+}
+
+.nome_t{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 25px;
+    width: 500px;
+    padding: 7px;
+    text-align: center;
+    color: white;
+    background-color: #AF64A3;
+}
+
+.tv{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.tv p{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+.tv .image{
+    width: 50%;
+    padding: 30px;
+    position: relative;
+    left: 450px;
+}
+
+.tv_img{
+    display: flex;
+    margin: 30px;
+    padding: 10px;
+}
+
+.img_tv1 img{
+    padding: 20px;
+    margin: 0px;
+    position: relative;
+    left: 50px;
+}
+
+@media screen and (max-width:1440px){
+    #parque{
+        width:1420;
+        padding: 10px;
+    }
+   
+    #tv{
+        width: 1200px;
+    }
+    #historia{
+        width: 97%;
+    }
+
+    .container_m{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: -2%;
+        width: 95%;
+    }
+
+    .mots_box{
+        left: 5%;
+        position: relative;
+    }
+
+    .mapa{
+        left: 8%;
+        width: 1200px;
+    }
+
+    .img_mapa{
+        left: 350px;
+    }
+
+    .img_cont img{
+        width: 450px;
+        height: 400px;
+    }
+
+    .n_text1{
+        right: 452px;
+        top: 150.5%;
+    }
+
+    .n_text2{
+        top: 214.5%;
+    }
+
+    .n_text3{
+        right: 452px;
+        top: 278.3%;
+    }
+
+    .n_text4{
+        top: 342.3%;
+    }
+
+    .n_text5{
+        right: 452px;
+        top: 406.5%;
+    }
+
+
+    .prev_m, .next_m{
+        top: 40%;
+        right: 1120px;
+    }
+
+    .next_m{
+        right: 74px;
+    }
+
+    .prev_ds1, .next_ds1{
+        top: 170%;
+        right: 467px;
+    }
+
+    .prev_ds2, .next_ds2{
+        top: 235%;
+        right: 90.5%;
+    }
+
+    .prev_ds4, .next_ds4{
+        top: 363%;
+        right: 90.5%;
+    }
+
+    .prev_ds5, .next_ds5{
+        top: 430%;
+        right: 467px;
+    }
+
+    .next_ds1, .next_ds3, .next_ds5{
+        right: 110px;
+    }
+
+    .next_ds2, .next_ds4{
+        right: 946px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    #parque{
+        width:748px;
+        padding: 10px;
+    }
+   
+    #tv{
+        width: 1000px;
+    }
+    #historia{
+        width: 984px;
+    }
+
+    .container_m{
+        display: block;
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .magic{
+        margin: 0;
+        position: relative;
+        left: -14%;
+    }
+    .mapa{
+        left: 30px;
+        width: 950px;
+    }
+
+    .img_mapa{
+        left: 0px;
+    }
+
+    .article_m{
+        margin-left: 40px;
+    }
+    
+    .nome_m{
+        right: -100%;
+        position: relative;
+    }
+
+    #img_ds img{
+       left: 0%;
+    }
+
+    .prev_m, .next_m{
+        top: 40%;
+        right: 605px;
+    }
+
+    .next_m{
+        right: -4px;
+    }
+
+    .mots_box{
+        text-align: center;
+        position: relative;
+        left: 10%;
+    }
+
+    .cidade{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    #parque{
+        width:748px;
+        padding: 10px;
+    }
+
+    #tv{
+        width: 720px;
+    }
+   
+    #historia{
+        width: 728px;
+    }
+
+    .magic{
+        margin: 0;
+        position: relative;
+        left: -20%;
+    }
+    .mapa{
+        left: 10px;
+        width: 700px;
+    }
+
+    .img_mapa{
+        left: 0px;
+    }
+
+    .article_m{
+        margin-left: 40px;
+    }
+    .image_a{
+        flex-direction: column;
+        padding-left: 20%;
+    }
+
+    .prev_m, .next_m{
+        top: 40%;
+        font-size: 18px;
+        right: 435px;
+    }
+
+    .next_m{
+        right: -16px;
+    }
+
+    .mots_box{
+        text-align: center;
+        position: relative;
+        left: 20%;
+    }
+
+    .fundo_2 .nome_m{
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .cidade{
+        position: relative;
+        left: 0px;
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (max-width:425px){
+    #parque{
+        width:405px;
+        padding: 10px;
+    }
+    #tv{
+        width: 400px;
+    }
+   
+    #historia{
+        width: 390px;
+    }
+
+    .article_m{
+        margin-left: 40px;
+    }
+
+    .prev_m, .next_m{
+        top: 40%;
+        font-size: 18px;
+        right: 242px;
+    }
+
+    .next_m{
+        right: -37px;
+    }
+
+    .mots_box{
+        text-align: center;
+        position: relative;
+        left: 15%;
+    }
+
+    .fundo_2 .nome_m{
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .cidade{
+        position: relative;
+        left: 0px;
+        font-size: 15px;
+    }
+
+    .mapa{
+        left: 10px;
+        width: 380px;
+    }
+
+    .img_mapa{
+        width: 90%;
+    }
+
+    .image_a{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:375px){
+    #parque{
+        width:355px;
+        padding: 10px;
+    }
+
+    #tv{
+        width: 350px;
+    }
+   
+    #historia{
+        width: 335px;
+    }
+
+    .prev_m, .next_m{
+        top: 40%;
+        font-size: 15px;
+        right: 205px;
+    }
+
+    .next_m{
+        right: -35px;
+    }
+
+    .mots_box{
+        text-align: center;
+        position: relative;
+        left: 15%;
+    }
+
+    .fundo_2 .nome_m{
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mapa{
+        left: 5%;
+        width: 320;
+        padding: 5px;
+    }
+
+    .image_a{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        width: 320px;
+    }
+
+    .article_m{
+        margin: 2px;
+    }
+}
+
+@media screen and (max-width:320px){
+    #parque{
+        width:300px;
+        padding: 10px;
+    }
+   
+    #historia{
+        width: 280px;
+    }
+
+    .article_ds{
+        margin: 0px;
+    }
+    
+    .article_m{
+        margin: 2px;
+    }
+
+    .prev_m, .next_m{
+        top: 40%;
+        font-size: 15px;
+        right: 165px;
+    }
+
+    .next_m{
+        right: -34px;
+    }
+
+    .mapa{
+        left: 2%;
+        width: 300px;
+        padding: 5px;
+        font-size: 19px;
+    }
+
+    .atracoes{
+        font-size: 19px;
+    }
+
+    .image_a{
+        width: 290px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .image_a p{
+        font-size: 15px;
+    }
+}

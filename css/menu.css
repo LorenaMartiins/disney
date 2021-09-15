@@ -1,0 +1,1481 @@
+.menu{
+    overflow: hidden;
+    background-color: #5aaccc;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+
+.menu a{
+    float: left;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*Menu */
+
+.menu .menu_btt{
+    display: none;
+}
+
+.menu .menu_btt:hover{
+    background-color: #84cae6;
+}
+
+.menu .menu_btt1{
+    display: none;
+}
+
+.menu .menu_btt1:hover{
+    background-color: #84cae6;
+}
+
+.menu .menu_btt2{
+    display: none;
+}
+
+.menu .menu_btt2:hover{
+    background-color: rgb(76, 140, 153);
+}
+
+.menu .menu_btt3{
+    display: none;
+}
+
+.menu .menu_btt3:hover{
+    background-color: #84cae6;
+}
+
+.menu .menu_btt4{
+    display: none;
+}
+
+.menu .menu_btt4:hover{
+    background-color: #84cae6;
+}
+
+.menu .menu_btt5{
+    display: none;
+}
+
+.menu .menu_btt5:hover{
+    background-color:#86d6c5;
+}
+
+.menu .menu_btt6{
+    display: none;
+}
+
+.menu .menu_btt6:hover{
+    background-color:#D9F2F9;
+}
+/*home*/
+.dropdown{
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    padding:0px 150px 0px 10px;
+}
+
+.dropdown .btt_drop{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    /*Inherit pega a cor do elemento pai*/
+    background-color: inherit;
+    font-family: inherit;
+}
+
+/*parque*/
+.dropdown .btt_drop1{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    /*Inherit pega a cor do elemento pai*/
+    background-color: inherit;
+    font-family: inherit;
+}
+
+/*Disney +*/
+.dropdown .btt_drop2{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    /*Inherit pega a cor do elemento pai*/
+    background-color: inherit;
+    font-family: inherit;
+}
+
+/*animação*/
+
+.dropdown .btt_drop5{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    /*Inherit pega a cor do elemento pai*/
+    background-color: inherit;
+    font-family: inherit;
+}
+
+/*tv*/
+.dropdown .btt_drop6{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    /*Inherit pega a cor do elemento pai*/
+    background-color: inherit;
+    font-family: inherit;
+}
+
+.content{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #84cae6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 205px;
+}
+
+.content a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/*parque*/
+.content_p{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #7ABFCE;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 285px;
+}
+
+.content_p a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.content_pm{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #7ABFCE;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 348px;
+}
+
+.content_pm a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.content_pe{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #7ABFCE;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 165px;
+}
+
+.content_pe a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.content_ph{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #7ABFCE;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 192px;
+}
+
+.content_ph a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.content_pa{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #7ABFCE;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 334px;
+}
+
+.content_pa a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.content_pp{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #7ABFCE;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 168px;
+}
+
+.content_pp a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.content_pdp{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #7ABFCE;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top:19%;
+}
+
+.content_pdp a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.content_pw{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #7ABFCE;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top:27%;
+}
+
+.content_pw a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.content_pd{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #7ABFCE;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top:18.7%;
+}
+
+.content_pd a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/*disney +*/
+.content_d{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: rgb(133, 178, 187);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 305px;
+}
+
+.content_d a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/*historia*/
+.content_h{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #7dc7db;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 345px;
+}
+
+.content_h a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/*DisneyStudio*/
+.content_ds{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #F9EED7;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 265px;
+}
+
+.content_ds a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.content_mv{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #F9EED7;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 22.5%;
+}
+
+.content_mv a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.content_lu{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #F9EED7;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 18%;
+}
+
+.content_lu a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/*animação*/
+.content_a{
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #b7e4da;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 185px;
+}
+
+.content_a a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/*tv*/
+.content_t{
+    display:  none;
+    float: left;
+    position: absolute;
+    background-color: #D9F2F9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 285px;
+}
+
+.content_t a{
+    float: none;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.menu a:hover, .dropdown:hover .btt_drop{
+    transition: 0.5s;
+    background-color: #8bdeff;
+}
+/*parque*/
+.menu a:hover, .dropdown:hover .btt_drop1{
+    transition: 1.0s;
+    background-color: #7ABFCE;
+}
+/*disney+*/
+.menu a:hover, .dropdown:hover .btt_drop2{
+    transition: 1.0s;
+    background-color: rgb(133, 178, 187);
+}
+/*historia*/
+.menu a:hover, .dropdown:hover .btt_drop3{
+    transition: 1.0s;
+    background-color: #7dc7db;
+    border-radius: 2px;
+}
+/*disneyStudio*/
+.menu a:hover, .dropdown:hover .btt_drop4{
+    transition: 1.0s;
+    background-color: #f9eed7c7;
+}
+/*animações*/
+.menu a:hover, .dropdown:hover .btt_drop5{
+    transition: 1.0s;
+    background-color: #86d6c5;
+}
+/*tv*/
+.menu a:hover, .dropdown:hover .btt_drop6{
+    transition: 1.0s;
+    color: black;
+    background-color: #D9F2F9;
+}
+
+.content a:hover{
+    background-color: #8bdeff;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.content_p a:hover{
+    background-color: #5298a1;
+    color: white;
+    transition: 1.0s;
+}
+
+.content_pm a:hover{
+    background-color: #5298a1;
+    color: white;
+    transition: 1.0s;
+}
+
+.content_pe a:hover{
+    background-color: #5298a1;
+    color: white;
+    transition: 1.0s;
+}
+
+.content_ph a:hover{
+    background-color: #5298a1;
+    color: white;
+    transition: 1.0s;
+}
+
+.content_pa a:hover{
+    background-color: #5298a1;
+    color: white;
+    transition: 1.0s;
+}
+
+.content_pp a:hover{
+    background-color: #5298a1;
+    color: white;
+    transition: 1.0s;
+}
+
+.content_pdp a:hover{
+    background-color: #5298a1;
+    color: white;
+    transition: 1.0s;
+}
+
+.content_pw a:hover{
+    background-color: #5298a1;
+    color: white;
+    transition: 1.0s;
+}
+
+.content_pd a:hover{
+    background-color: #5298a1;
+    color: white;
+    transition: 1.0s;
+}
+
+.content_d a:hover{
+    background-color: rgb(76, 140, 153);
+    color: white;
+    transition: 1.0s;
+}
+
+.content_h a:hover{
+    background-color: #4ca8c2;
+    color: black;
+    transition: 1.0s;
+}
+
+.content_ds a:hover{
+    background-color: #db7a8f93;
+    color: black;
+    transition: 1.0s;
+}
+
+.content_mv a:hover{
+    background-color: #db7a8f93;
+    color: black;
+    transition: 1.0s;
+}
+.content_lu a:hover{
+    background-color: #db7a8f93;
+    color: black;
+    transition: 1.0s;
+}
+
+.content_t a:hover{
+    background-color: #a4d4e0c4;
+    color: black;
+    transition: 1.0s;
+}
+
+.dropdown:hover .content_p{
+    display: block;
+}
+
+.dropdown:hover .content_pm{
+    display: block;
+}
+
+.dropdown:hover .content_pe{
+    display: block;
+}
+
+.dropdown:hover .content_ph{
+    display: block;
+}
+
+.dropdown:hover .content_pa{
+    display: block;
+}
+
+.dropdown:hover .content_pp{
+    display: block;
+}
+
+.dropdown:hover .content_pdp{
+    display: block;
+}
+
+.dropdown:hover .content_pw{
+    display: block;
+}
+
+.dropdown:hover .content_pd{
+    display: block;
+}
+
+.dropdown:hover .content_d{
+    display: block;
+}
+
+.dropdown:hover .content_h{
+    display: block;
+}
+
+.dropdown:hover .content_ds{
+    display: block;
+}
+
+.dropdown:hover .content_mv{
+    display: block;
+}
+.dropdown:hover .content_lu{
+    display: block;
+}
+
+.dropdown:hover .content_a{
+    display: block;
+}
+
+.dropdown:hover .content_t{
+    display: block;
+}
+
+/*Responsividade*/
+
+@media screen and (max-width:1440px){
+
+    .dropdown{
+        padding:0px 80px 0px 10px;
+    }
+
+    .content_pm{
+        top: 275px;
+    }
+
+    .content_h{
+        top:31.3%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .menu a, .dropdown .btt_drop{
+        display: none;
+        font-size: 15px;
+    }
+
+    .menu a, .dropdown .btt_drop1{
+        display: none;
+        font-size: 15px;
+    }
+
+    .menu a, .dropdown .btt_drop2{
+        display: none;
+        font-size: 15px;
+    }
+
+    .menu a, .dropdown .btt_drop3{
+        display: none;
+        font-size: 15px;
+    }
+
+    .menu a, .dropdown .btt_drop4{
+        display: none;
+        font-size: 15px;
+    }
+
+    .menu a, .dropdown .btt_drop5{
+        display: none;
+        font-size: 15px;
+    }
+
+    .menu a, .dropdown .btt_drop6{
+        display: none;
+        font-size: 15px;
+    }
+
+    .menu .menu_btt{
+        float: right;
+        display: block;
+    }
+
+    .menu .menu_btt1{
+        float: right;
+        display: block;
+    }
+    .menu .menu_btt2{
+        float: right;
+        display: block;
+    }
+    .menu .menu_btt3{
+        float: right;
+        display: block;
+    }
+    .menu .menu_btt4{
+        float: right;
+        display: block;
+    }
+    .menu .menu_btt5{
+        float: right;
+        display: block;
+    }
+    .menu .menu_btt6{
+        float: right;
+        display: block;
+    }
+
+    .content{
+        top: 0px;
+    }
+
+    .content_p{
+        top: 0px;
+    }
+
+    .content_pm{
+        top: 0px;
+    }
+
+    .content_ph{
+        top: 0px;
+    }
+
+    .content_pa{
+        top: 0px;
+    }
+
+    .content_pe{
+        top: 0px;
+    }
+
+    .content_pp{
+        top: 0px;
+    }
+
+    .content_pdp{
+        top: 0px;
+    }
+
+    .content_pw{
+        top: 0px;
+    }
+
+    .content_pd{
+        top: 0px;
+    }
+
+    .content_d{
+        top: 0px;
+    }
+
+    .content_h{
+        top: 0px;
+    }
+
+    .content_ds{
+        top: 0px;
+    }
+
+    .content_mv{
+        top: 0px;
+    }
+    .content_lu{
+        top: 0px;
+    }
+    .content_a{
+        top: 0px;
+    }
+
+    .content_t{
+        top: 0px;
+    }
+}
+
+@media screen and (max-width:1024px){
+
+    .menu.responsive{
+        position: relative;
+    }
+
+    .menu.responsive a.menu_btt{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt1{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt2{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt3{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt4{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt5{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt6{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown{
+        float: none;
+    }
+
+    .menu.responsive .content{
+        position: relative;
+    }
+
+    .menu.responsive .content_p{
+        position: relative;
+    }
+
+    .menu.responsive .content_pm{
+        position: relative;
+    }
+
+    .menu.responsive .content_ph{
+        position: relative;
+    }
+
+    .menu.responsive .content_pa{
+        position: relative;
+    }
+
+    .menu.responsive .content_pp{
+        position: relative;
+    }
+
+    .menu.responsive .content_pdp{
+        position: relative;
+    }
+
+    .menu.responsive .content_pw{
+        position: relative;
+    }
+
+    .menu.responsive .content_pe{
+        position: relative;
+    }
+
+    .menu.responsive .content_pd{
+        position: relative;
+    }
+
+    .menu.responsive .content_d{
+        position: relative;
+    }
+
+    .menu.responsive .content_h{
+        position: relative;
+    }
+
+    .menu.responsive .content_ds{
+        position: relative;
+    }
+
+    .menu.responsive .content_mv{
+        position: relative;
+    }
+
+    .menu.responsive .content_lu{
+        position: relative;
+    }
+
+    .menu.responsive .content_a{
+        position: relative;
+    }
+
+    .menu.responsive .content_t{
+        position: relative;
+    }
+
+    .menu.responsive .dropdown .btt_drop{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop1{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop2{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop3{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop4{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop5{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop6{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:768px){
+    .menu a, .dropdown .btt_drop{
+        display: none;
+        font-size: 15px;
+    }
+
+    .menu a, .dropdown .btt_drop1{
+        display: none;
+        font-size: 15px;
+    }
+
+    .menu a, .dropdown .btt_drop2{
+        display: none;
+        font-size: 15px;
+    }
+
+    .menu a, .dropdown .btt_drop3{
+        display: none;
+        font-size: 15px;
+    }
+
+    .menu a, .dropdown .btt_drop4{
+        display: none;
+        font-size: 15px;
+    }
+
+    .menu a, .dropdown .btt_drop5{
+        display: none;
+        font-size: 15px;
+    }
+
+    .menu a, .dropdown .btt_drop6{
+        display: none;
+        font-size: 15px;
+    }
+
+    .menu .menu_btt{
+        float: right;
+        display: block;
+    }
+
+    .menu .menu_btt1{
+        float: right;
+        display: block;
+    }
+    .menu .menu_btt2{
+        float: right;
+        display: block;
+    }
+    .menu .menu_btt3{
+        float: right;
+        display: block;
+    }
+    .menu .menu_btt4{
+        float: right;
+        display: block;
+    }
+    .menu .menu_btt5{
+        float: right;
+        display: block;
+    }
+    .menu .menu_btt6{
+        float: right;
+        display: block;
+    }
+
+    .content{
+        top: 0px;
+    }
+
+    .content_p{
+        top: 0px;
+    }
+
+    .content_pm{
+        top: 0px;
+    }
+
+    .content_d{
+        top: 0px;
+    }
+
+    .content_h{
+        top: 0px;
+    }
+
+    .content_ds{
+        top: 0px;
+    }
+
+    .content_lu{
+        top: 0px;
+    }
+
+    .content_mv{
+        top: 0px;
+    }
+
+    .content_a{
+        top: 0px;
+    }
+
+    .content_t{
+        top: 0px;
+    }
+
+    .content_pm{
+        top: 0px;
+    }
+
+    .content_ph{
+        top: 0px;
+    }
+
+    .content_pe{
+        top: 0px;
+    }
+
+    .content_pa{
+        top: 0px;
+    }
+
+    .content_pp{
+        top: 0px;
+    }
+
+    .content_pdp{
+        top: 0px;
+    }
+
+    .content_pw{
+        top: 0px;
+    }
+
+    .content_pd{
+        top: 0px;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .menu.responsive{
+        position: relative;
+    }
+
+    .menu.responsive a.menu_btt{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt1{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt2{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt3{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt4{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt5{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt6{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown{
+        float: none;
+    }
+
+    .menu.responsive .content{
+        position: relative;
+    }
+
+    .menu.responsive .content_p{
+        position: relative;
+    }
+
+    .menu.responsive .content_pm{
+        position: relative;
+    }
+
+    .menu.responsive .content_pe{
+        position: relative;
+    }
+
+    .menu.responsive .content_ph{
+        position: relative;
+    }
+
+    .menu.responsive .content_pa{
+        position: relative;
+    }
+
+    .menu.responsive .content_pp{
+        position: relative;
+    }
+
+    .menu.responsive .content_pdp{
+        position: relative;
+    }
+
+    .menu.responsive .content_pw{
+        position: relative;
+    }
+
+    .menu.responsive .content_pd{
+        position: relative;
+    }
+
+    .menu.responsive .content_d{
+        position: relative;
+    }
+
+    .menu.responsive .content_h{
+        position: relative;
+    }
+
+    .menu.responsive .content_ds{
+        position: relative;
+    }
+
+    .menu.responsive .content_mv{
+        position: relative;
+    }
+    .menu.responsive .content_lu{
+        position: relative;
+    }
+
+    .menu.responsive .content_a{
+        position: relative;
+    }
+
+    .menu.responsive .content_t{
+        position: relative;
+    }
+
+    .menu.responsive .dropdown .btt_drop{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop1{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop2{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop3{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop4{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop5{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop6{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:320px){
+
+    .menu.responsive{
+        position: relative;
+    }
+
+    .menu.responsive a.menu_btt{
+        position: absolute;
+        right: -180;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt1{
+        position: absolute;
+        right: -180;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt2{
+        position: absolute;
+        right: -180;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt3{
+        position: absolute;
+        right: -180;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt4{
+        position: absolute;
+        right: -180;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt5{
+        position: absolute;
+        right: -180;
+        top: 0;
+    }
+
+    .menu.responsive a.menu_btt6{
+        position: absolute;
+        right: -180;
+        top: 0;
+    }
+
+    .menu.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .menu.responsive .dropdown{
+        float: none;
+    }
+
+    .menu.responsive .content{
+        position: relative;
+    }
+
+    .menu.responsive .content_mv{
+        position: relative;
+    }
+
+    .menu.responsive .content_lu{
+        position: relative;
+    }
+    .menu.responsive .content_p{
+        position: relative;
+    }
+
+    .menu.responsive .content_pm{
+        position: relative;
+    }
+
+    .menu.responsive .content_pa{
+        position: relative;
+    }
+
+    .menu.responsive .content_pe{
+        position: relative;
+    }
+
+    .menu.responsive .content_ph{
+        position: relative;
+    }
+
+    .menu.responsive .content_pp{
+        position: relative;
+    }
+
+    .menu.responsive .content_pdp{
+        position: relative;
+    }
+
+    .menu.responsive .content_pw{
+        position: relative;
+    }
+
+    .menu.responsive .content_pd{
+        position: relative;
+    }
+
+    .menu.responsive .content_t{
+        position: relative;
+        font-size: 15px;
+    }
+
+    .menu.responsive .dropdown .btt_drop{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop1{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop2{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop3{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop4{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop5{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu.responsive .dropdown .btt_drop6{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
